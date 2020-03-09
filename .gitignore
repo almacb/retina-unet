@@ -4,5 +4,5 @@
 DRIVE_datasets_training_testing/
 DRIVE/
 DRIVE_hdf5/
-test/
+Results/
 venv/

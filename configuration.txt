@@ -1,5 +1,5 @@
 [data paths]
-path_local =  ./DRIVE_datasets_training_testing/
+path_local =  ./DRIVE_hdf5/
 train_imgs_original = DRIVE_dataset_imgs_train.hdf5
 train_groundTruth = DRIVE_dataset_groundTruth_train.hdf5
 train_border_masks = DRIVE_dataset_borderMasks_train.hdf5
@@ -10,7 +10,7 @@ test_border_masks = DRIVE_dataset_borderMasks_test.hdf5
 
 
 [experiment name]
-name = test
+name = Results
 
 
 [data attributes]
@@ -28,7 +28,7 @@ inside_FOV = False
 N_epochs = 150
 batch_size = 32
 #if running with nohup
-nohup = True
+nohup = False
 
 
 [testing settings]

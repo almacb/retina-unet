@@ -10,6 +10,17 @@ $ pip list
 $ pip show [package_name]
 ```
 
+## To find out what is included in $PYTHONPATH
+
+```
+import sys
+print(sys.path)
+```
+
+
+
+
+
 ## Convert tif images to png
 
 - Install imageMagik
