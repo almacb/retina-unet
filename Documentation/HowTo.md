@@ -11,6 +11,7 @@ $ pip show [package_name]
 ```
 
 ## To find out what is included in $PYTHONPATH
+[ref](https://askubuntu.com/questions/470982/how-to-add-a-python-module-to-syspath/471168#471168?newreg=daf6bd43fcbf44ac874d1f98d1797336)
 
 ```
 import sys
